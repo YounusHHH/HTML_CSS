@@ -1,0 +1,141 @@
+
+body{
+  scroll-behavior: smooth;
+  background: #E4F9F5;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 200%;
+}
+
+h1{
+  font-size: 5.625rem; /* 16px=100%=1em* use rem always */
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+
+  /*width: 10%;*/
+  /*margin: 0 auto 0 auto;*/
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+a:hover{
+  color:#00D5FF;
+}
+.skill-row{
+  width: 50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+
+.btn {
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 20px;
+  background: #3cb0fd;
+  padding: 11px 16px 10px 20px;
+  text-decoration: none;
+  }
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+.skill-image1{
+  width: 200px;
+  float: left;
+  margin-right: 30px;
+
+}
+.skill-image2{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+
+}
+
+.heading{
+  margin: 0;
+
+  background: #E4F9F5;
+  padding-top: 10px;
+  padding-right: 10px;
+  height: 55px;
+  width: 100%;
+  text-align: right;
+  position: fixed;
+
+}
+.logo{
+  position: absolute;
+  left: 20px;
+  top: 15px;
+  width: 40px;
+  height: 40px;
+}
+.anger-heading{
+
+  padding: 20px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 1.5rem;
+}
+.myPhoto{
+  padding-top: 20px;
+  width: 200px;
+  height: 200px;
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 450px;
+}
+
+.top_container{
+  background: #E4F9F5;
+
+  position: inherit;
+  padding-top: 100px
+  /*height: 200px;
+  width: 200px;
+  display: inline-block;*/
+
+}
+.middle_container{
+  height: 200px;
+  width: 200px;
+  /*background-color: blue;
+  display: inline-block;
+  position: relative;shifting  */
+  /*position: absolute;*/
+
+}
+.buttom_container{
+  height: 200px;
+  width: 200px;
+/*  background: red;
+  display: inline-block;
+  position: absolute;
+  left: 400px;*/
+
+}
